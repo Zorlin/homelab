@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # WIP
 # clean this up
@@ -15,7 +15,7 @@ editor = os.getenv('EDITOR')
 seed_repo = "github.com/khuedoan/homelab"
 domain = "khuedoan.com"
 
-if sys.version_info < (3, 10, 0):
+if sys.version_info < (3, 9, 0):
     raise Exception("Must be using Python >= 3.10.0")
 
 if platform.system() != 'Linux':
