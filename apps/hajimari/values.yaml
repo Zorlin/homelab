@@ -14,7 +14,7 @@ hajimari:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &host home.gomatrixhostingforever.xyz
+        - host: &host home.windowpa.in
           paths:
             - path: /
               pathType: Prefix

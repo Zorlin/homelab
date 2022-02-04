@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: &host registry.gomatrixhostingforever.xyz
+  - host: &host registry.windowpa.in
     http:
       paths:
       - pathType: ImplementationSpecific

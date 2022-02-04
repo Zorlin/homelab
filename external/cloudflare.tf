@@ -1,5 +1,5 @@
-data "cloudflare_zone" "gomatrixhosting_xyz" {
-  name = "gomatrixhosting.xyz"
+data "cloudflare_zone" "windowpa_in" {
+  name = "windowpa.in"
 }
 
 data "cloudflare_api_token_permission_groups" "all" {}

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-curl -fks --connect-timeout 5 https://git.gomatrixhostingforever.xyz \
+curl -fks --connect-timeout 5 https://git.windowpa.in \
     || extra_args="--values values-seed.yaml"
 
 helm template \
