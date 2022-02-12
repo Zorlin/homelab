@@ -1,0 +1,17 @@
+paperless:
+  ingress:
+    main:
+      enabled: true
+      annotations:
+        cert-manager.io/cluster-issuer: letsencrypt-prod
+      hosts:
+        - host: &host paperless.windowpa.in
+          paths:
+            - path: /
+              pathType: Prefix
+      tls:
+        - secretName: paperless-tls-certificate
+          hosts:
+            - *host
+  postgresql:
+    enabled: true
