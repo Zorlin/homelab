@@ -1,4 +1,4 @@
-apiVersion: pxc.percona.com/v1-11-0
+apiVersion: pxc.percona.com/v1-9-0
 kind: PerconaXtraDBCluster
 metadata:
   name: main
@@ -114,8 +114,8 @@ spec:
 #    envVarsSecret: my-env-var-secrets
     resources:
       requests:
-        memory: 1G
-        cpu: 600m
+        memory: 512M
+        cpu: 300m
 #        ephemeral-storage: 1G
 #      limits:
 #        memory: 1G
