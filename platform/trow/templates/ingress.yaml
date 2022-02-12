@@ -6,7 +6,6 @@ metadata:
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
     nginx.ingress.kubernetes.io/proxy-body-size: '0'
 spec:
-  ingressClassName: nginx
   rules:
   - host: &host registry.windowpa.in
     http:
