@@ -1,0 +1,5 @@
+apiVersion: v2
+name: pxc-operator
+dependencies:
+  - name: pxc-operator
+    repository: https://percona.github.io/percona-helm-charts/
