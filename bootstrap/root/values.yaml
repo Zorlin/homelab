@@ -8,3 +8,4 @@ stacks:
   - name: platform
   - name: apps
   - name: operators
+  - name: deployed-resources
